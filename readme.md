@@ -1,6 +1,6 @@
 <p align="center">
     <img src="https://github.com/rose-pine/rose-pine-theme/raw/main/assets/icon.png" width="80" />
-    <h2 align="center">Rosé Pine for App</h2>
+    <h2 align="center">Rosé Pine for LSD</h2>
 </p>
 
 <p align="center">All natural pine, faux fur and a bit of soho vibes for the classy minimalist</p>
@@ -13,35 +13,30 @@
 
 ## Usage
 
-1. Open App
-2. Under settings, import `rose-pine.theme`
-3. Select `Rosé Pine` from the themes dropdown
+1. **[Install](https://rosepinetheme.com/themes/) Rosé Pine for your terminal**
+
+2. **Create the lsd directory**
+- Open your terminal and run:
+```
+mkdir -p ~/.config/lsd
+```
+3. **Add/modify the config.yaml file**
+- Download or copy the `config.yaml` from the Rosé Pine repo.
+- Place it in the `~/.config/lsd/` directory.
+4. **Copy the color configuration**
+- Download or copy the `color.yaml` file from the repo.
+- Place it in `~/.config/lsd/`.
+5. **Enjoy the theme!**
+You should now see the Rosé Pine theme in your terminal.
 
 ## Gallery
-
-![Rosé Pine with App](https://user-images.githubusercontent.com/1474821/166155319-06796439-95a7-4aea-910e-927c1f24518e.png)
+### Rosé Pine
+![Rosé Pine with LSD](https://github.com/user-attachments/assets/0f948ecb-7e96-4460-8db4-54b83704db4c)
+### Rosé Pine Moon
+![Rosé Pine Moon with LSD](https://github.com/user-attachments/assets/fdce0ea5-6633-4d78-8be1-a0622ddb72d5)
+### Rosé Pine Dawn
+![Rosé Pine Dawn with LSD](https://github.com/user-attachments/assets/9ab4672e-e6f4-43b9-8e35-91bf81c0370f)
 
 ## Thanks to
 
-- [You, it's you!](https://github.com/<username>)
-
-## Contributing
-
-> Prefer using [@rose-pine/build](https://github.com/rose-pine/build) when possible
-
-Modify `template.json` using Rosé Pine variables, then build variants:
-
-```sh
-npx @rose-pine/build@latest
-```
-
-## Style guide
-
-> Be sure to remove this section 😌
-
-- Lowercase meta files, eg. `readme.md`
-- Repo name should be the simplest version of the app name, eg. iterm instead of iTerm2
-- Add a description and topics to automatically show the theme on [rosepinetheme.com/themes](https://rosepinetheme.com/themes)
-    - Description should read "Soho vibes for App" where "App" is the display name
-    - Topics should include [existing categories](https://rosepinetheme.com/themes)
-    - Generate and upload social image via [Rosé Pine Images](https://rose-pine-images.vercel.app)
+- [Rosé Pine](https://github.com/rose-pine)
