@@ -1,38 +1,49 @@
-user: dark_red          # love
-group: dark_yellow      # gold
+user: cyan          # rose
+group: blue      # foam
 permission:
-  read: dark_cyan        # foam
-  write: dark_magenta    # iris
-  exec: dark_magenta     # rose
-  exec-sticky: dark_yellow # gold
-  no-access: grey        # muted
+  read: cyan        # rose
+  write: magenta # iris
+  exec: red     # love
+  exec-sticky: yellow # gold
+  no-access: grey        # secondary
   octal: dark_grey       # subtle
-  acl: cyan              # pine
+  acl: green              # pine
   context: dark_grey     # overlay
 date:
-  hour-old: white        # text
-  day-old: dark_cyan     # foam
-  older: dark_grey       # subtle
+  hour-old: red        # text
+  day-old: cyan     # rose
+  older: dark_grey       # secondary
 size:
-  none: grey             # muted
-  small: dark_cyan       # pine
-  medium: cyan           # foam
+  none: dark_grey             # secondary
+  small: green       # pine
+  medium: blue           # foam
   large: magenta         # iris
 inode:
-  valid: cyan            # foam
-  invalid: grey          # muted
+  valid: blue            # foam
+  invalid: grey          # secondary
 links:
   valid: white           # text
-  invalid: grey          # muted
-tree-edge: grey          # muted
+  invalid: grey          # secondary
+tree-edge: dark_grey          # secondary
 git-status:
-  default: grey          # muted
-  unmodified: dark_grey  # subtle
-  ignored: grey          # muted
-  new-in-index: dark_cyan # foam
-  new-in-workdir: dark_cyan # foam
-  typechange: dark_yellow # gold
-  deleted: dark_red      # love
-  renamed: dark_cyan     # pine
-  modified: dark_magenta # rose
-  conflicted: dark_red   # love
+  default: dark_grey          # secondary
+  unmodified: dark_grey  # secondary
+  ignored: dark_grey          # secondary
+  new-in-index: blue # foam
+  new-in-workdir: blue # foam
+  typechange: yellow # gold
+  deleted: red      # love
+  renamed: green     # pine
+  modified: cyan # rose
+  conflicted: red   # love
+
+# green / dark_green = pine
+# blue / dark_blue = foam
+# cyan / dark_cyan = rose
+# magenta / dark_magenta = iris
+# red / dark_red = love
+# yellow / dark_yellow = gold
+#
+# black = base
+# grey = text
+# dark_grey = secondary
